@@ -1,0 +1,50 @@
+*,::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: rgba(0, 0, 0, 0.2); 
+    width: 100vw;
+    top: 0;
+}
+
+div nav a {
+    font-size: 30px;
+    padding: 20px;
+}
+
+nav img {
+    opacity: inherit;
+    position: absolute;
+    left: 0;
+}
+.responsivenav1 {
+    font-size: 60;
+}
+/* ---------------HOmePage Nav----------- */
+
+.hp-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hp-nav-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-right: 2vw;
+}
+
+.hp-nav-div a {
+    font-size: 30px;
+    padding: 20px;
